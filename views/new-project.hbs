@@ -1,0 +1,62 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <div class="top-link-container">
+            <a href="/projects" class="top-link big-text kalam">
+                Volver
+            </a>
+        </div>
+        <form action="/newProject" method="POST" class="new-element-form">
+
+            <label for="name" class="big-text kalam margin-bottom-1">Nombre:</label>
+            <input type="text" name="name" value="" class="title-input margin-bottom-2 normal-text">
+
+            <label for="description" class="big-text kalam margin-bottom-1">Descripción:</label>
+            <textarea rows="10" cols="80" name="description" type="text" class="margin-bottom-3 normal-text"></textarea>
+
+            <label for="link" class="big-text kalam margin-bottom-1">Enlace:</label>
+            <input type="text" name="link" value="" class="link-input margin-bottom-4 normal-text">
+
+            <input type="submit" value="Añadir nuevo proyecto" class="big-text kalam">
+
+        </form>
+    </div>
+</div>

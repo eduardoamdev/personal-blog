@@ -1,0 +1,93 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <div class="top-link-container">
+            <a href="/personalInfo" class="top-link big-text kalam">
+                Volver
+            </a>
+        </div>
+        {{#if serviceId}}
+        <table class="table-less-margin">
+            <caption>
+                <p class="big-text kalam">Id del servicio</p>
+            </caption>
+            <tr class="tr-link border-top-none">
+                <td class="td-link-sixty-six">
+                    <p class="big-text kalam">{{serviceId.text}}</p>
+                </td>
+                <td class="td-link-third-decoration">
+                    <a class="big-text kalam" href="/updateServiceId/{{serviceId._id}}">Actualizar</a>
+                </td>
+            </tr>
+        </table>
+        {{/if}}
+        {{#if templateId}}
+        <table class="table-less-margin">
+            <caption>
+                <p class="big-text kalam">Id de la plantilla</p>
+            </caption>
+            <tr class="tr-link border-top-none">
+                <td class="td-link-sixty-six">
+                    <p class="big-text kalam">{{templateId.text}}</p>
+                </td>
+                <td class="td-link-third-decoration">
+                    <a class="big-text kalam" href="/updateTemplateId/{{templateId._id}}">Actualizar</a>
+                </td>
+            </tr>
+        </table>
+        {{/if}}
+        {{#if userId}}
+        <table class="presentation-table">
+            <caption>
+                <p class="big-text kalam">Id del usuario</p>
+            </caption>
+            <tr class="tr-link border-top-none">
+                <td class="td-link-sixty-six">
+                    <p class="big-text kalam">{{userId.text}}</p>
+                </td>
+                <td class="td-link-third-decoration">
+                    <a class="big-text kalam" href="/updateUserId/{{userId._id}}">Actualizar</a>
+                </td>
+            </tr>
+        </table>
+        {{/if}}
+    </div>
+</div>

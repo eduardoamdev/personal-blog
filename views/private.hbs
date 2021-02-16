@@ -1,0 +1,47 @@
+<div>
+    {{#if user}}
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <h1 class="main-title private-title kalam">Bienvenido a tu api</h1>
+    </div>
+</div>
+{{/if}}
+</div>

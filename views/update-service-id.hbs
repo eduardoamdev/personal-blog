@@ -1,0 +1,56 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <div class="top-link-container">
+            <a href="/email" class="top-link big-text kalam">
+                Volver
+            </a>
+        </div>
+        <form action="/updateServiceId/{{service._id}}" method="POST" class="new-element-form">
+
+            <label for="text" class="big-text kalam margin-bottom-1">Id del servicio:</label>
+            <input type="text" name="text" value="{{service.text}}" class="title-input margin-bottom-3 normal-text">
+
+            <input type="submit" value="Actualizar id" class="big-text kalam">
+
+        </form>
+    </div>
+</div>

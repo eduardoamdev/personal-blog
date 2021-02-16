@@ -1,0 +1,23 @@
+<div class="login-container">
+
+  <h1 class="main-title kalam">My api personal</h1>
+
+  <form action="/login" method="POST" class="login-form">
+
+    <label for="username" class="big-text margin-bottom-1 kalam">Usuario:</label>
+    <input type="text" name="username" class="normal-text margin-bottom-2">
+
+    <label for="password" class="big-text margin-bottom-1 kalam">Contraseña:</label>
+    <input type="password" name="password" class="normal-text margin-bottom-3">
+
+
+    {{#if message}}
+    <div><p class="normal-text error-text margin-bottom-3">{{ message }}</p></div>
+    {{/if}}
+
+
+    <input type="submit" value="Acceder" class="big-text  kalam">
+
+  </form>
+
+</div>

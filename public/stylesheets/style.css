@@ -1,0 +1,318 @@
+html {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .main-title {
+    font-size: 4rem;
+    width: 25rem;
+  }
+  #nav-elements {
+    display: none;
+  }
+  nav {
+    padding: 1.4rem 2rem 1.4rem 0;
+  }
+  table {
+    width: 28rem;
+  }
+  .file-input {
+    width: 22rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  .main-title {
+    font-size: 5rem;
+  }
+  #nav-elements {
+    display: none;
+  }
+  nav {
+    padding: 1.4rem 3rem 1.4rem 0;
+  }
+  table {
+    width: 40rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-title {
+    font-size: 6rem;
+  }
+  #burguer {
+    display: none;
+  }
+  #burguer-elements {
+    display: none;
+  }
+  nav {
+    padding: 2rem 5rem 2rem 0;
+  }
+  table {
+    width: 60rem;
+  }
+}
+
+@font-face {
+  font-family: "KalamRegular";
+  src: url("./KalamRegular.eot");
+  src: local("KalamRegular"), url("./KalamRegular.woff") format("woff"),
+    url("./KalamRegular.ttf") format("truetype");
+}
+
+.kalam {
+  font-family: "KalamRegular" !important;
+}
+
+.main-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-container {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin-bottom: 10rem;
+}
+
+.normal-text {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.big-text {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1.5rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 3rem;
+}
+
+.margin-bottom-3 {
+  margin-bottom: 4rem;
+}
+
+.error-text {
+  color: red;
+}
+
+.private-title {
+  margin-top: 30vh;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(146, 148, 235);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-right-3 {
+  margin-right: 3rem;
+}
+
+.margin-left-3 {
+  margin-left: 3rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  position: absolute;
+  top: 8.9vh;
+  right: 0;
+  background: rgb(228, 134, 192);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+table {
+  margin-top: 10vh;
+}
+
+.presentation-table {
+  margin-bottom: 15vh;
+}
+
+.table-less-margin {
+  margin-bottom: 3vh;
+}
+
+.table-personal {
+  margin-top: 30vh;
+}
+
+caption {
+  border: solid #000;
+  border-width: 2px;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+tr {
+  border: 2px solid #000;
+}
+
+.tr-text {
+  border-width: 0 2px 2px 2px;
+}
+
+.tr-paragraph {
+  white-space: pre-wrap;
+}
+
+.tr-personal {
+  border-width: 2px;
+}
+
+td {
+  padding: 1rem 1.5rem;
+}
+
+.td-personal {
+  width: 25%;
+  text-align: center;
+}
+
+.td-left {
+  border-right: 2px solid black;
+}
+
+.td-right {
+  border-left: 2px solid black;
+}
+
+.tr-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.td-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  padding: 1rem 0.5rem;
+}
+
+.td-link-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 1rem 0.5rem;
+}
+
+.td-link-sixty-six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66%;
+  padding: 1rem 0.5rem;
+}
+
+.td-link-third-decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  padding: 1rem 0.5rem;
+  border-left: 2px solid black;
+  background: rgb(146, 148, 235);
+}
+
+.border-top-none {
+  border-top: 0px solid black;
+}
+
+.top-link-container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-link {
+  background: rgb(146, 148, 235);
+  padding: 1rem;
+  border: 3px solid blue;
+  border-radius: 1rem;
+}
+
+.new-element-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.title-input {
+  width: 35vw;
+}
+
+.link-input {
+  width: 60vw;
+}
+
+textarea {
+  width: 85%;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+.border-right {
+  border-right: 2px solid black;
+}
+
+.normal-td {
+  background: rgb(146, 148, 235);
+}
+
+.delete-td {
+  background: red;
+}
+
+.file-input {
+  background: rgb(146, 148, 235);
+  border: 2px solid blue;
+}

@@ -1,0 +1,66 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <table>
+            <tr class="tr-link">
+                <td class="td-link border-right normal-td">
+                    <a class="big-text kalam" href="/tutorials">Volver</a>
+                </td>
+                <td class="td-link border-right normal-td">
+                    <a class="big-text kalam" href="/updateTutorial/{{tutorial._id}}">Actualizar</a>
+                </td>
+                <td class="td-link delete-td">
+                    <a class="big-text kalam" href="/deleteTutorial/{{tutorial._id}}">Eliminar</a>
+                </td>
+            </tr>
+        </table>
+        <table class="presentation-table">
+            <caption>
+                <p class="big-text kalam">Título del tutorial</p>
+            </caption>
+            <tr class="tr-text">
+                <td>
+                    <p class="big-text kalam">{{tutorial.name}}</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

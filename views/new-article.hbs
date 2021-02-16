@@ -1,0 +1,59 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <div class="top-link-container">
+            <a href="/articles" class="top-link big-text kalam">
+                Volver
+            </a>
+        </div>
+        <form action="/newArticle" method="POST" class="new-element-form">
+
+            <label for="title" class="big-text kalam margin-bottom-1">Título:</label>
+            <input type="text" name="title" value="" class="title-input margin-bottom-2 normal-text">
+
+            <label for="text" class="big-text kalam margin-bottom-1">Contenido:</label>
+            <textarea rows="10" cols="80" name="text" type="text" class="margin-bottom-3 normal-text"></textarea>
+
+            <input type="submit" value="Añadir nuevo artículo" class="big-text kalam">
+
+        </form>
+    </div>
+</div>

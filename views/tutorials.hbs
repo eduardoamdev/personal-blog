@@ -1,0 +1,64 @@
+<div>
+    <div id="burguer-elements" class="hide">
+        <a href="/personalInfo" class="big-text margin-bottom-3 kalam">
+            Info
+        </a>
+        <a href="/articles" class="big-text margin-bottom-3 kalam">
+            Artículos
+        </a>
+        <a href="/tutorials" class="big-text margin-bottom-3 kalam">
+            Vídeos
+        </a>
+        <a href="/projects" class="big-text margin-bottom-3 kalam">
+            Proyectos
+        </a>
+        <a href="/logout" class="big-text kalam">
+            Log out
+        </a>
+    </div>
+    <nav>
+        <div id="burguer">
+            <img src="/images/hamburguer.png" alt="burguer" width="30" height="30" onclick="pushBurguer()">
+        </div>
+        <div id="nav-elements">
+            <a href="/personalInfo" class="big-text margin-right-3 kalam">
+                Info
+            </a>
+            <a href="/articles" class="big-text margin-right-3 kalam">
+                Artículos
+            </a>
+            <a href="/tutorials" class="big-text margin-right-3 kalam">
+                Vídeos
+            </a>
+            <a href="/projects" class="big-text margin-right-3 kalam">
+                Proyectos
+            </a>
+            <a href="/logout" class="big-text kalam">
+                Log out
+            </a>
+        </div>
+    </nav>
+    <div class="info-container">
+        <div class="top-link-container">
+            <a href="/newTutorial" class="top-link big-text kalam">
+                Nuevo tutorial
+            </a>
+        </div>
+        {{#if tutorials}}
+        <table class="presentation-table">
+            <caption>
+                <p class="big-text kalam">Listado de tutoriales</p>
+            </caption>
+            {{#each tutorials}}
+            <tr class="tr-text">
+                <td>
+                    <a class="big-text kalam" href="/tutorial/{{_id}}">
+                        {{name}}
+                    </a>
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+        {{/if}}
+    </div>
+</div>

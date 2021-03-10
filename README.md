@@ -16,23 +16,23 @@
 
   - ### Crear un archivo .env y declarar las variables de entorno:
 
-  Crearemos un archivo .env en el directorio raíz de nuestro proyecto.  
-  Dentro del archivo .env declararemos nuestras variables de entorno que serán las siguientes:
-  - PORT=3000
-  - DB_SESSION=eduardo
-  - DB_PASSWORD=< Aquí irá la contraseña de nuestra base de datos >
-  - DB_NAME=eblog-db
+    Crearemos un archivo .env en el directorio raíz de nuestro proyecto.  
+    Dentro del archivo .env declararemos nuestras variables de entorno que serán las siguientes:
+      - PORT=3000
+      - DB_SESSION=eduardo
+      - DB_PASSWORD=< Aquí irá la contraseña de nuestra base de datos >
+      - DB_NAME=eblog-db
 
   - ### Cambiaremos el "missing credentials" del inicio de sesión por un mensaje en castellano:
 
-  Nos dirigiremos al directorio node_modules de nuestro proyecto y, dentro de la carpeta passport-local entramos en el directorio lib y abrimos el archivo strategy.js.  
-  Una vez allí nos dirigiremos a la línea 75 y, donde pone "missing credentials" escribiremos el mensaje que deseemos que aparezca cada vez que falte alguna de las credenciales necesarias para iniciar la sesión.
+    Nos dirigiremos al directorio node_modules de nuestro proyecto y, dentro de la carpeta passport-local entramos en el directorio lib y abrimos el archivo strategy.js.  
+    Una vez allí nos dirigiremos a la línea 75 y, donde pone "missing credentials" escribiremos el mensaje que deseemos que aparezca cada vez que falte alguna de las credenciales necesarias para iniciar la sesión.
 
   - ### Levantar el servidor:
 
-  Abriremos el intérprete de comandos y, desde la raíz de nuestro proyecto, ejecutaremos el comando "npm run dev".
+    Abriremos el intérprete de comandos y, desde la raíz de nuestro proyecto, ejecutaremos el comando "npm run dev".
 
   - ### Abrir la aplicación:
 
-  Abriremos nuestro navegador y, en la barra de direcciones, escribiremos "localhost:3000".
+    Abriremos nuestro navegador y, en la barra de direcciones, escribiremos "localhost:3000".
   

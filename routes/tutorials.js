@@ -52,8 +52,10 @@ router.post(
   ensureLogin.ensureLoggedIn("/"),
   (req, res) => {
     let tutorialId = req.params.id;
+    let tutorialName = req.body.name;
     let tutorialLink = req.body.link;
     Tutorial.findByIdAndUpdate(tutorialId, {
+      name: tutorialName,
       link: tutorialLink
     }).then((tutorial) => {
       res.redirect(`/tutorial/${tutorialId}`);

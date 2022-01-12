@@ -5,8 +5,10 @@
 ## Descripción:
 
 Se trata de una api que proporciona al fron .nd de mi sitio web toda la información que necesita tomándola de una base de datos MongoDB que se encuentra en Atlas.
+
 Una parte muy importante a destacar dentro de este proyecto de back-end es que contiene una interfaz gráfica desarrollada con Handlebars que permite al administrador modificar la información de la base de datos de una manera sencilla y rápida.
 Esta aplicación se encuentra desplegada en https://eblog-api.herokuapp.com/ pero solo puede ser accedida por el administrador ya que requiere de usuario y contraseña para ser utilizada.
+
 La aplicación a la que da servicio se encuentra en la siguiente url: https://eblog-amdev.herokuapp.com/
 
 ## Cómo utilizar la aplicación

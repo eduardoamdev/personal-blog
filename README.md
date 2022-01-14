@@ -195,4 +195,4 @@ Passport es un conjunto de librerías que nos permiten gestionar el acceso de lo
 ## ¿Qué me ha aportado este proyecto?
 
 Esta API ha resultado bastante completa ya que contiene todas las tecnologías de back-end necesarias como son NodeJS, Express y MongoDB y, además, incluye renderizado de plantillas con Handlebars para crear una interfaz de usuario y no tener que hacer las modificaciones directamente en la base de datos.
-Personalmente, su desarrollo me ha servido para asentar mejor mis conocimientos y hacer un repaso profundo de todas estas tecnologías.
+Personalmente, su desarrollo me ha servido para asentar mejor mis conocimientos y hacer un repaso profundo de todas estas tecnologías..

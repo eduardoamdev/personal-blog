@@ -14,7 +14,7 @@ const User = require("./models/user");
 const cors = require("cors");
 
 mongoose
-  .connect(DEV_URL, {
+  .connect(process.env.DB_URL, {
     useNewUrlParser: true,
   })
   .then((x) => {

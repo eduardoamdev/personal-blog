@@ -14,12 +14,9 @@ const User = require("./models/user");
 const cors = require("cors");
 
 mongoose
-  .connect(
-    `mongodb+srv://${process.env.DB_SESSION}:${process.env.DB_PASSWORD}@cluster0.c0lts.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
-    {
-      useNewUrlParser: true,
-    }
-  )
+  .connect(DEV_URL, {
+    useNewUrlParser: true,
+  })
   .then((x) => {
     console.log(
       `Connected to Mongo! Database name: "${x.connections[0].name}"`

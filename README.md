@@ -1,6 +1,6 @@
 # Mi api personal
 
-<img src="./public/images/log-in.png" alt="log in"/>
+<img src="./readme-images/log-in.png" alt="log in"/>
 
 ## Descripción:
 
@@ -15,7 +15,7 @@ La aplicación a la que da servicio se encuentra en la siguiente url: https://eb
 
 Una vez estemos logueados tendremos acceso a la pantalla de bienvenida.
 
-<img src="./public/images/welcome.png" alt="Bienvenida"/>
+<img src="./readme-images/welcome.png" alt="Bienvenida"/>
 
 Como podemos ver, también tenemos acceso a la barra de navegación y, con ello, a las siguientes funcionalidades.
 
@@ -23,17 +23,17 @@ Como podemos ver, también tenemos acceso a la barra de navegación y, con ello,
 
 Nos permite trabajar con la información del "sobre mí" (en inicio), correo de contacto, el título de la página principal y el pie de página.
 
-<img src="./public/images/info.png" alt="Inicio"/>
+<img src="./readme-images/info.png" alt="Inicio"/>
 
 #### Inicio
 
 Contiene la información del "sobre mí". Si entramos nos mostrará el texto actual y las opciones de modificar y volver.
 
-<img src="./public/images/info.png" alt="Sobre mí"/>
+<img src="./readme-images/info.png" alt="Sobre mí"/>
 
 Si entramos en modificar nos aparecerá un textárea que nos permitirá modificar el contenido.
 
-<img src="./public/images/update-about-me.png" alt="Actualizar sobre mí"/>
+<img src="./readme-images/update-about-me.png" alt="Actualizar sobre mí"/>
 
 #### Email
 
@@ -44,37 +44,37 @@ No voy a mostrar imágenes de las mismas ya que contienen las claves para trabaj
 
 El título de la página principal de la aplicación lo podemos ver en este apartado.
 
-<img src="./public/images/title.png" alt="Título"/>
+<img src="./readme-images/title.png" alt="Título"/>
 
 Si entramos en modificar podremos modificar el contenido.
 
-<img src="./public/images/update-title.png" alt="Actualizar título"/>
+<img src="./readme-images/update-title.png" alt="Actualizar título"/>
 
 #### Pie de página
 
 Nos muestra el contenido de nuestro pie de página.
 
-<img src="./public/images/footer.png" alt="Pie de página"/>
+<img src="./readme-images/footer.png" alt="Pie de página"/>
 
 En actualizar podemos cambiar el contenido del mismo.
 
-<img src="./public/images/update-footer.png" alt="Actualizar pie de página"/>
+<img src="./readme-images/update-footer.png" alt="Actualizar pie de página"/>
 
 ### Artículos
 
 Este apartado nos mostrará un listado con los artículos almacenados en la base de datos. Aquí tenemos la opción de ver un artículo haciendo click sobre él o bien crear un nuevo artículo para añadir al listado.
 
-<img src="./public/images/articles.png" alt="Artículos"/>
+<img src="./readme-images/articles.png" alt="Artículos"/>
 
 ### Ver artículo
 
 Dentro del detalle del artículo podemos ver el contenido del mismo y acceder a las oopciones de volver a la pantalla anterior, actualizar y eliminar.
 
-<img src="./public/images/article.png" alt="Artículo"/>
+<img src="./readme-images/article.png" alt="Artículo"/>
 
 Si entramos en actualizar podremos cambiar el título y el contenido del artículo propiamente dicho.
 
-<img src="./public/images/update-article.png" alt="Actualizar-artículo"/>
+<img src="./readme-images/update-article.png" alt="Actualizar-artículo"/>
 
 Si pulsamos en eliminar borraremos directamente el artículo de nuestra base de datos.
 
@@ -82,23 +82,23 @@ Si pulsamos en eliminar borraremos directamente el artículo de nuestra base de 
 
 Si, estando en artículos, pulsamos en nuevo artículo accedermos a un formulario en el que podremos rellenar el título y el contenido del nuevo artículo que queramos publicar.
 
-<img src="./public/images/new-article.png" alt="Nuevo-artículo"/>
+<img src="./readme-images/new-article.png" alt="Nuevo-artículo"/>
 
 ### Vídeos
 
 Si accedemos a vídeos veremos una lista completa con los títulos de los vídeos de YouTube a los que accederemos desde nuestro front-end. También tenemos la opción de acceder a la información de un vídeo en concreto o de introducir la de uno nuevo.
 
-<img src="./public/images/videos.png" alt="Vídeos"/>
+<img src="./readme-images/videos.png" alt="Vídeos"/>
 
 #### Ver vídeo
 
 En esta pantalla se nos mostraran tanto el título del vídeo como las opciones de actualizar, volver o borrar de nuestra base de datos.
 
-<img src="./public/images/video.png" alt="Vídeo"/>
+<img src="./readme-images/video.png" alt="Vídeo"/>
 
 Si pulsamos en actualizar veremos la información del vídeo es decir, el título y el id, y la podremos modificar.
 
-<img src="./public/images/update-video.png" alt="Actualizar-vídeo"/>
+<img src="./readme-images/update-video.png" alt="Actualizar-vídeo"/>
 
 Si pulsamos en borrar borraremos la información del vídeo de nuestra base de datos.
 
@@ -106,23 +106,23 @@ Si pulsamos en borrar borraremos la información del vídeo de nuestra base de d
 
 Si accedemos a nuevo tutorial podremos ver un formulario que nos servirá para introducir la información de un nuevo vídeo.
 
-<img src="./public/images/new-video.png" alt="Nuevo-vídeo"/>
+<img src="./readme-images/new-video.png" alt="Nuevo-vídeo"/>
 
 ### Proyectos
 
 Si accedemos a proyectos veremos una lista completa con los nombres de los proyectos que se encuentran en nuestra base de datos. También tenemos la opción de acceder a la información de un proyecto o insertar la de uno nuevo.
 
-<img src="./public/images/projects.png" alt="Proyectos"/>
+<img src="./readme-images/projects.png" alt="Proyectos"/>
 
 #### Ver proyecto
 
 Aquí accederemos a la descripción del proyecto así como a las opciones de actualizar y eliminar.
 
-<img src="./public/images/project.png" alt="Proyecto"/>
+<img src="./readme-images/project.png" alt="Proyecto"/>
 
 Si pulsamos en actualizar veremos la información del proyecto es decir, el título, la descripción y la url de GitHub, y la podremos modificar.
 
-<img src="./public/images/update-project.png" alt="Actualizar-proyecto"/>
+<img src="./readme-images/update-project.png" alt="Actualizar-proyecto"/>
 
 Si pulsamos en borrar borraremos la información del proyecto de nuestra base de datos.
 
@@ -130,7 +130,7 @@ Si pulsamos en borrar borraremos la información del proyecto de nuestra base de
 
 Si accedemos a nuevo proyecto podremos ver un formulario que nos servirá para introducir la información de un nuevo proyecto.
 
-<img src="./public/images/new-project.png" alt="Nuevo-proyecto"/>
+<img src="./readme-images/new-project.png" alt="Nuevo-proyecto"/>
 
 ### Log out
 

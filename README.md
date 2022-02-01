@@ -1,4 +1,4 @@
-# Personal blog
+# Blog personal
 
 <img src="./readme-images/first-page-client.png" alt="Portada del proyecto"/>
 

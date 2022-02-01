@@ -1,0 +1,25 @@
+.title-container {
+  height: 90vh;
+}
+
+.main-title {
+  padding-top: 30vh;
+}
+
+@media (min-width: 1000px) {
+  .main-title {
+    font-size: 12rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  .main-title {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .main-title {
+    font-size: 5rem;
+  }
+}

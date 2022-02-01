@@ -1,0 +1,54 @@
+.no-border-info-container {
+  height: 67vh;
+  margin-top: 5rem;
+  padding-top: 5vh;
+}
+
+.question-text {
+  font-size: 1.8rem;
+}
+
+.message {
+  border: 2px solid rgb(182, 44, 182);
+  box-shadow: inset 0 0 10px rgb(211, 99, 221), 0 0 20px rgb(221, 99, 221);
+}
+
+.send-button {
+  font-size: 1.8rem;
+  padding: 0.6rem 1rem;
+  background: black;
+  color: white;
+  border: 2px solid rgb(182, 44, 182);
+  box-shadow: inset 0 0 10px rgb(211, 99, 221), 0 0 20px rgb(221, 99, 221);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form textarea {
+  width: 80vw;
+  width: 85%;
+  padding: 1rem;
+  margin: 3rem 0;
+}
+
+@media (min-width: 1000px) {
+  .contact-form {
+    margin-top: 8rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 999px) {
+  .contact-form {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .contact-form {
+    margin-top: 4rem;
+  }
+}

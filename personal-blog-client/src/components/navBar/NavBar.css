@@ -1,0 +1,217 @@
+.navigation { 
+  width: 100%;
+  background: rgba(255, 110, 236, 0.4);
+  display: flex;
+  justify-content: flex-end;
+  height: 9.6vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-elements {
+  margin: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin-left: 4rem;
+  padding: 0.8rem;
+  color: white;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+
+.element-link {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: rgb(222, 137, 243);
+  border: 2px solid rgb(98, 166, 184);
+}
+
+.burguer-elements {
+  position: fixed;
+  top: 25vh;
+  right: 0;
+  background: rgba(255, 110, 236, 0.4);
+}
+
+.burguer-elements-link {
+  text-decoration: none;
+  color: white;
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.burguer-elements-link:hover {
+  background: white;
+  color: blue;
+}
+
+.articles {
+  right: 0;
+  background: rgba(255, 110, 236, 0.4);
+}
+
+.projects {
+  right: 0;
+  background: rgba(255, 110, 236, 0.4);
+}
+
+@media (min-width: 1350px) {
+  .articles {
+    position: fixed;
+    top: 18vh;
+  }
+  .article-link{
+    padding: 2rem 6rem;
+  }
+  .projects {
+    position: fixed;
+    top: 18vh;
+  }
+  .project-link{
+    padding: 2rem 6rem;
+  }
+}
+
+@media (max-width: 1349px) {
+  .articles {
+    position: fixed;
+    top: 25vh;
+  }
+  .article-link{
+    padding: 1.5rem 3rem;
+  }
+  .projects {
+    position: fixed;
+    top: 25vh;
+  }
+  .project-link{
+    padding: 1.5rem 3rem;
+  }
+}
+
+.article-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.article-link:hover {
+  background: white;
+  color: blue;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  transition: 1s;
+}
+
+.project-link:hover {
+  background: white;
+  color: blue;
+}
+
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projects-close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.projects-close-button img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (min-width: 1350px) {
+  .burguer {
+    display: none;
+  }
+  .burguer-elements {
+    display: none;
+  }
+}
+
+@media (max-width: 1349px) {
+  .nav-elements {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .burguer {
+    margin: 1.8rem 2.8rem;
+  }
+
+  .burguer img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .burguer {
+    margin: 1.5rem 2.5rem;
+  }
+
+  .burguer img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+.nav-element {
+  font-size: 1.7rem;
+  margin-right: 3.5rem;
+}
+
+.bottom-nav {
+  height: 0.4vh;
+  background: #fff;
+  box-shadow:
+      0 0 7px rgb(249, 200, 255),
+      0 0 10px rgb(237, 191, 255),
+      0 0 21px rgb(236, 149, 254),
+      0 0 42px rgb(234, 0, 255),
+      0 0 82px rgb(225, 0, 255),
+      0 0 92px rgb(191, 0, 255),
+      0 0 102px rgb(217, 0, 255),
+      0 0 151px rgb(230, 0, 255);
+}
+
+.neon-nav-element {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(234, 118, 255),
+      0 0 82px rgb(255, 113, 255),
+      0 0 92px rgb(243, 113, 255),
+      0 0 102px rgb(250, 106, 255),
+      0 0 151px rgb(253, 116, 255);
+}
